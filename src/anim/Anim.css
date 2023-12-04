@@ -1,0 +1,21 @@
+.strategy {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .strategy.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .arrow {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .arrow.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }

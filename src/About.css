@@ -1,0 +1,286 @@
+.about_title {
+    position: relative;
+    z-index: -2;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about_title p:first-child {
+        font-size: 192px; 
+        display: inline-block;
+        vertical-align:top; 
+        margin: 0; 
+        line-height: 1;
+        font-weight: 600; 
+        letter-spacing: 7px;
+    }   
+    .about_title p:last-child {
+        font-size: 72px;
+        display: inline-block; 
+        vertical-align: top;
+        margin: 0; 
+        line-height: 1;
+    }
+    .card_panel {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .card_item {
+        flex: 0 0 50%;
+        border: 1px solid black;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about_title p:first-child {
+        font-size: 72px; 
+        display: inline;
+        vertical-align:top; 
+        margin: 0; 
+        line-height: 72px;
+        font-weight: 600; 
+        letter-spacing: 2px;
+    }
+    .about_title p:last-child {
+        font-size: 24px;
+        display: inline; 
+        vertical-align: top;
+        margin: 0; 
+        line-height: 24px;
+    }   
+    .card_panel {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card_item {
+        border: 1px solid black;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+}
+
+.title_description {
+    
+    border-bottom: 1px solid black;
+    margin-top: 60px;
+}
+.title_description--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title_description--text p:first-child {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+.title_description--text p:last-child {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.title_description--image {
+    padding-left: 24;
+}
+.title_description--image img {
+    width: 100%;
+}
+.detail_text {
+    padding-top: 60px;
+    padding-right: 24px;
+}
+.detail_text p:nth-child(1) {
+    margin: 0;
+}
+.detail_text p:nth-child(2) {
+    margin: 40px 0px;
+}
+.detail_text p:nth-child(3) {
+    margin: 0;
+}
+
+.detail_contact {
+    padding-left: 24px;
+}
+.detail_contact p {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+}
+.detail_contact-btn {
+   margin-top: 40px; 
+}
+.philosophy_container--header {
+    background-color: lightgrey;
+    border-bottom: 10px solid black;
+    margin-top: 120px;
+}
+.philosophy_container--header h2 {
+    font-size: 72px;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+.philosophy_content {
+    margin-top: 60px;
+}
+
+.philosophy_item--list {
+    padding-top: 24px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+}
+.philosophy_item {
+    display: flex;
+    align-items: center;
+}
+.philosophy_item span {
+    font-size: 48px;
+    margin-left: 24px;
+    font-weight: 600;
+}
+.philosophy_item--text p{
+    font-size: 22px;
+    margin: 0px;
+}
+.sayAbout_container {
+    background-color: lightgrey;
+    border-bottom: 10px solid black;
+    margin-top: 120px;
+}
+.sayAbout_container h2 {
+    font-size: 72px;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+.card_container {
+    margin-top: 60px;
+}
+.card_panel {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.card_item {
+    flex: 0 0 50%;
+    border: 1px solid black;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-right: 24px;
+}
+.card_item--text p:first-child{
+    font-size: 48px;
+    margin: 0px;
+}
+.card_item--text span{
+    font-size: 18px;
+    color: grey;
+}
+.card_item--text p:last-child{
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+.outTeam_header {
+    background-color: lightgrey;
+    border-bottom: 10px solid black;
+    margin-top: 120px;
+}
+.ourTeam_header--text {
+    font-size: 72px;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+.members_list {
+    margin-top: 60px;
+}
+
+.member_avatar {
+    text-align: center;
+    padding: 24;
+}
+.member_avatar img {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.member_avatar div{
+    padding: 24px;
+    border-bottom: 1px solid black;
+}
+.member_avatar:nth-child(1):hover > img {
+    src: "/assets/img/members/doodle-ed-mouseover.png";
+}
+
+.member_avatar p {
+    font-size: 48px;
+    margin: 0px;
+}
+.member_avatar > p {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.member_avatar span {
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.findout_container {
+    background-color: lightgrey;
+    border-bottom: 10px solid black;
+    margin-top: 120;
+    padding: 94px 60px;
+}
+
+.findout_container--title {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+.findout_container--text {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.findout_container--btn {
+    margin-top: 40px;
+}
+
+.readytowork_container {
+    margin-top: 120px;
+}
+
+.readytowork_title p {
+    font-size: 120px;
+    font-weight: 600;
+    margin: 0px;
+    letter-spacing: 10px;
+    line-height: 1;
+}
+.readytowork_title span {
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.readytowork_title img {
+    width: 120px;
+}
+
+.form_container {
+    padding: 88px;
+    margin-top: 60px;
+    border: 1px solid grey;
+}
+.form_container label {
+    font-size: 22px;
+}

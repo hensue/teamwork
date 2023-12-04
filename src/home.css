@@ -1,0 +1,23 @@
+.main{
+    /* background-color: hsl(223, 11%, 87%); */
+    /* height: 100vh; */
+    position: relative;
+   
+}
+.main-title{
+    position: relative;
+    padding: 0 60px;
+    /* position: relative; */
+}
+.main-title>p{
+    font-size:170px;
+    margin: 0 0;
+    font-family: 'Montserrat';
+    font-weight: 712
+} 
+p{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat';
+}

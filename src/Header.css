@@ -1,0 +1,15 @@
+.dashed-line {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.dashed-line hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid black;
+    margin: 0 10px;
+}
+

@@ -1,0 +1,116 @@
+.popup_header {
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-bottom: 1px solid lightgrey;
+}
+.popup_header div {
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup_header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.popup_header ul li {
+    display: inline;
+    cursor: pointer;
+}
+.popup_menu {
+    position: fixed;
+    right: -100vw;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #DBDDE2;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.popup_menu--show {
+    right: 0vw;
+    transition: right, 0.5s;
+}
+.popup_menu--hidden {
+    right: -100vw;
+    transition: right, 0.5s;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.toolbar span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.toolbar p{
+    margin: 0;
+    cursor: pointer;
+}
+.menu_list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu_list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu_list ul li {
+    font-size: 72px;
+    font-weight: 600;
+    padding: 0px 24px;
+}
+.menu_list ul li {
+    background-color: white;
+    
+}
+.menu_list ul li > a {
+    color: black !important;
+    
+}
+
+.menu_list ul li:hover {
+    background-color: black;
+} 
+.menu_list ul li:hover > a {
+    color: red !important
+}
+.red_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+.avy_img {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    height: 100%;
+}
+.form_container label {
+    font-size: 22px;
+}
+.form_container select, .form_container input {
+    font-size: 22px;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.form_container select:focus, .form_container input:focus {
+    border-bottom: 3px solid black;
+    font-weight: 600;
+}
